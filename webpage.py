@@ -64,7 +64,7 @@ def get_similar_songs_dbscan(song_name, df, model, scaled_data=X_df1_scaled, top
 
 
 # Streamlit app code
-st.title("Song Recommendation App")
+st.title("Music Recommendation App")
 
 # Dropdown for selecting artist
 artist_names = data['track_artist'].unique().tolist()
